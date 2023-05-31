@@ -28,11 +28,6 @@ console.log(datos);
 
 total = datos.length;
 
-if (total < 30){
-    alert("TIENEN QUE HABER AL MENOS 30 DATOS PARA HACER UNA TABLA DE FRECUENCIAS POR INTERVALOS :v");
-
-    return;
-}
 
 
 
