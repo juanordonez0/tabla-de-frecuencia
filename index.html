@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLA DE FRECUENCIAS :v</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+
+<!-- ACABO DE PERDER 4 HORAS DE MI VIDA HACIENDO ALGO QUE PROBABLEMENTE NADIE USARA :'v-->
+<div class="container principal" style="display: block; margin: auto;">
+    <h1 style="text-align: center;">TABLA DE FRECUENCIAS</h1>
+
+    <br>
+
+    <textarea style="width: 455px; height: 150px;" id="arr" placeholder="Ingrese los datos separados por comas (SOLO NUMEROS ENTEROS).  Ejemplo: 708, 713, 781, 809, 797, 793, 711, 681, 768, 611, 698, 836, 768, 532, 657, 559, 741, 792, 701, 753, 745, 681, 598, 693, 743, 444, 502, 739, 755, 835..."></textarea>
+
+    <br>
+    <br>
+   
+    <button onclick="hacer()" id="button">HACER</button>
+    <button onclick="reiniciar()" id="button" style="margin-bottom: 40px;">REINICIAR</button>
+
+
+    <table id="tb" style="text-align: center;" class="center">
+        <tr>
+            <th>Clases Aparentes</th>
+            <th>Clases Reales</th>
+            <th>Marco de Clase</th>
+            <th>f</th>
+            <th>F</th>
+            <th>fr</th>
+            <th>f%</th>
+
+        </tr>
+
+     
+    </table>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

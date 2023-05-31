@@ -1,0 +1,19 @@
+#tb, #tb td, #tb tr, #tb th{
+    border: 2px black solid;
+    border-collapse: collapse;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.principal {
+    display: table-cell;
+    vertical-align: middle; /* centra verticalmente */
+    text-align: center; /* centra horizontalmente */
+  }
+
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
