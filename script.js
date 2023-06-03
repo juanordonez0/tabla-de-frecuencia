@@ -60,10 +60,12 @@ var interval = Math.round(rango/k);
 var value = min_value;
 
 
-console.log(datos.length);
-console.log(max_value);
-console.log(min_value);
-console.log(interval);
+console.log(`Cantidad de datos ${datos.length}`);
+console.log(`Valor Maximo: ${max_value}`);
+console.log(`Valor Minimo: ${min_value}`);
+console.log(`Rango: ${rango}`);
+console.log(`k: ${k}`);
+console.log(`Intervalo: ${interval}`);
 
 do {
    
